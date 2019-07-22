@@ -1,0 +1,18 @@
+{
+  "name": "ucs-cli",
+  "version": "1.0.0",
+  "description": "Buscar Notas da UCS pelo Terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ânderson Zorrer Dalmina",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-table": "^0.3.1",
+    "jsdom": "^15.1.1",
+    "prompts": "^2.1.0",
+    "puppeteer": "^1.18.1"
+  }
+}
