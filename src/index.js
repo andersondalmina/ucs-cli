@@ -6,7 +6,7 @@ const chalk = require('chalk');
 const prompts = require('prompts');
 const fs = require('fs');
 
-const config = require('./config.json');
+const config = require('../config.json');
 
 if (!config.username || !config.password) {
   const questions = [
